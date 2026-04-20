@@ -1,0 +1,822 @@
+[
+  {
+    "question": "If there's a data breach, how quickly does the controller need to report it to the supervisory authority under GDPR?",
+    "expected_answer": "72 hours after having become aware of it, unless the breach is unlikely to result in a risk to the rights and freedoms of natural persons.",
+    "rag_answer": "Under the GDPR, the controller must report a personal data breach to the supervisory authority without undue delay and, where feasible, not later than 72 hours after becoming aware of the breach. This requirement applies unless the controller can demonstrate that the breach is unlikely to result in a risk to the rights and freedoms of natural persons. If the notification cannot be made within 72 hours, it must be accompanied by the reasons for the delay (GDPR.pdf p.52 and p.17).",
+    "category": "factual",
+    "correct": true,
+    "sources": [
+      {
+        "source": "GDPR.pdf",
+        "page": 52
+      },
+      {
+        "source": "GDPR.pdf",
+        "page": 17
+      },
+      {
+        "source": "GDPR.pdf",
+        "page": 52
+      },
+      {
+        "source": "GDPR.pdf",
+        "page": 17
+      },
+      {
+        "source": "GDPR.pdf",
+        "page": 52
+      },
+      {
+        "source": "GDPR.pdf",
+        "page": 52
+      },
+      {
+        "source": "GDPR.pdf",
+        "page": 53
+      },
+      {
+        "source": "GDPR.pdf",
+        "page": 16
+      }
+    ]
+  },
+  {
+    "question": "What's the biggest fine you can get under GDPR if you violate the basic processing principles like consent?",
+    "expected_answer": "Up to 20,000,000 EUR, or in the case of an undertaking, up to 4% of the total worldwide annual turnover of the preceding financial year, whichever is higher.",
+    "rag_answer": "Under the General Data Protection Regulation (GDPR), the maximum administrative fine for violating the basic principles for processing, including conditions for consent, can be up to 20,000,000 EUR, or in the case of an undertaking, up to 4% of the total worldwide annual turnover of the preceding financial year, whichever is higher (Source: GDPR.pdf p.83).",
+    "category": "factual",
+    "correct": true,
+    "sources": [
+      {
+        "source": "GDPR.pdf",
+        "page": 83
+      },
+      {
+        "source": "GDPR.pdf",
+        "page": 82
+      },
+      {
+        "source": "GDPR.pdf",
+        "page": 82
+      },
+      {
+        "source": "GDPR.pdf",
+        "page": 37
+      },
+      {
+        "source": "GDPR.pdf",
+        "page": 6
+      },
+      {
+        "source": "GDPR.pdf",
+        "page": 8
+      },
+      {
+        "source": "GDPR.pdf",
+        "page": 82
+      },
+      {
+        "source": "GDPR.pdf",
+        "page": 8
+      }
+    ]
+  },
+  {
+    "question": "Can you tell me what the four main functions in the NIST AI RMF are?",
+    "expected_answer": "GOVERN, MAP, MEASURE, and MANAGE.",
+    "rag_answer": "The four main functions in the NIST AI Risk Management Framework (AI RMF) are GOVERN, MAP, MEASURE, and MANAGE. Each of these functions is designed to facilitate dialogue, understanding, and activities related to managing AI risks and developing trustworthy AI systems (Source: risk management 48 pages.pdf p.25).",
+    "category": "factual",
+    "correct": true,
+    "sources": [
+      {
+        "source": "risk managment 48 pages.pdf",
+        "page": 25
+      },
+      {
+        "source": "risk managment 48 pages.pdf",
+        "page": 37
+      },
+      {
+        "source": "risk managment 48 pages.pdf",
+        "page": 44
+      },
+      {
+        "source": "risk managment 48 pages.pdf",
+        "page": 24
+      },
+      {
+        "source": "risk managment 48 pages.pdf",
+        "page": 7
+      },
+      {
+        "source": "risk managment 48 pages.pdf",
+        "page": 8
+      },
+      {
+        "source": "risk managment 48 pages.pdf",
+        "page": 26
+      },
+      {
+        "source": "risk managment 48 pages.pdf",
+        "page": 26
+      }
+    ]
+  },
+  {
+    "question": "How does GDPR define personal data exactly?",
+    "expected_answer": "Any information relating to an identified or identifiable natural person ('data subject'); an identifiable natural person is one who can be identified, directly or indirectly, in particular by reference to an identifier such as a name, an identification number, location data, an online identifier or to one or more factors specific to the physical, physiological, genetic, mental, economic, cultural or social identity of that natural person.",
+    "rag_answer": "The General Data Protection Regulation (GDPR) defines 'personal data' as any information relating to an identified or identifiable natural person, referred to as a 'data subject.' An identifiable natural person is one who can be identified, directly or indirectly (GDPR.pdf p.33). This definition emphasizes that personal data encompasses a wide range of information that can be linked to an individual, thereby highlighting the importance of protecting such data under the regulation.",
+    "category": "factual",
+    "correct": true,
+    "sources": [
+      {
+        "source": "GDPR.pdf",
+        "page": 33
+      },
+      {
+        "source": "GDPR.pdf",
+        "page": 34
+      },
+      {
+        "source": "EU AI ACT.pdf",
+        "page": 48
+      },
+      {
+        "source": "GDPR.pdf",
+        "page": 7
+      },
+      {
+        "source": "GDPR.pdf",
+        "page": 10
+      },
+      {
+        "source": "EU AI ACT.pdf",
+        "page": 3
+      },
+      {
+        "source": "EU AI ACT.pdf",
+        "page": 3
+      },
+      {
+        "source": "GDPR.pdf",
+        "page": 33
+      }
+    ]
+  },
+  {
+    "question": "How much can a company be fined under the EU AI Act for using a prohibited AI practice?",
+    "expected_answer": "Up to EUR 35,000,000 or, if the offender is an undertaking, up to 7% of its total worldwide annual turnover for the preceding financial year, whichever is higher.",
+    "rag_answer": "Under the EU AI Act, a company can be fined for using a prohibited AI practice as follows:\n\n1. For non-compliance with the prohibition of AI practices referred to in Article 5, the fines can be up to EUR 35,000,000 or, if the offender is an undertaking, up to 7% of its total worldwide annual turnover for the preceding financial year, whichever is higher (Source: EU AI ACT.pdf p.115).\n\n2. Additionally, for non-compliance with other provisions related to operators or notified bodies, the fines can be up to EUR 1,500,000 (Source: EU AI ACT.pdf p.117).\n\nThese fines are designed to be effective, proportionate, and dissuasive (Source: EU AI ACT.pdf p.118).",
+    "category": "factual",
+    "correct": true,
+    "sources": [
+      {
+        "source": "EU AI ACT.pdf",
+        "page": 115
+      },
+      {
+        "source": "EU AI ACT.pdf",
+        "page": 117
+      },
+      {
+        "source": "EU AI ACT.pdf",
+        "page": 117
+      },
+      {
+        "source": "EU AI ACT.pdf",
+        "page": 39
+      },
+      {
+        "source": "EU AI ACT.pdf",
+        "page": 108
+      },
+      {
+        "source": "EU AI ACT.pdf",
+        "page": 118
+      },
+      {
+        "source": "EU AI ACT.pdf",
+        "page": 15
+      },
+      {
+        "source": "EU AI ACT.pdf",
+        "page": 42
+      }
+    ]
+  },
+  {
+    "question": "When do you actually need to appoint a Data Protection Officer under GDPR?",
+    "expected_answer": "A DPO must be designated where: (a) the processing is carried out by a public authority or body, except for courts acting in their judicial capacity; (b) the core activities of the controller or processor consist of processing operations which require regular and systematic monitoring of data subjects on a large scale; or (c) the core activities consist of processing on a large scale of special categories of data or personal data relating to criminal convictions and offences.",
+    "rag_answer": "You need to appoint a Data Protection Officer (DPO) under the GDPR in the following cases:\n\n1. When the processing is carried out by a public authority or body, except for courts acting in their judicial capacity (GDPR.pdf p.55).\n2. When the core activities of the controller or the processor consist of processing operations that require regular and systematic monitoring of data subjects on a large scale (GDPR.pdf p.55).\n3. When the core activities of the controller or the processor involve large-scale processing of special categories of data (as defined in Article 9) or personal data relating to criminal convictions and offences (as referred to in Article 10) (GDPR.pdf p.55).\n\nAdditionally, a group of undertakings may appoint a single DPO, provided that the DPO is easily accessible from each establishment (GDPR.pdf p.55).",
+    "category": "factual",
+    "correct": true,
+    "sources": [
+      {
+        "source": "GDPR.pdf",
+        "page": 55
+      },
+      {
+        "source": "GDPR.pdf",
+        "page": 55
+      },
+      {
+        "source": "GDPR.pdf",
+        "page": 56
+      },
+      {
+        "source": "GDPR.pdf",
+        "page": 55
+      },
+      {
+        "source": "GDPR.pdf",
+        "page": 55
+      },
+      {
+        "source": "GDPR.pdf",
+        "page": 56
+      },
+      {
+        "source": "GDPR.pdf",
+        "page": 55
+      },
+      {
+        "source": "GDPR.pdf",
+        "page": 56
+      }
+    ]
+  },
+  {
+    "question": "What makes an AI system count as high-risk under the EU AI Act?",
+    "expected_answer": "An AI system is considered high-risk where both of the following conditions are fulfilled: (a) the AI system is intended to be used as a safety component of a product, or the AI system is itself a product, covered by the Union harmonisation legislation listed in Annex I; and (b) the product whose safety component is the AI system, or the AI system itself as a product, is required to undergo a third-party conformity assessment.",
+    "rag_answer": "An AI system is classified as high-risk under the EU AI Act if it meets two specific conditions:\n\n1. The AI system is intended to be used as a safety component of a product, or the AI system itself is a product that falls under the Union harmonisation legislation listed in Annex I.\n2. The product, which includes the AI system as a safety component or is the AI system itself, is required to undergo a third-party conformity assessment (Source: EU AI ACT.pdf p.53).\n\nAdditionally, high-risk AI systems must be registered in an EU database managed by the Commission, particularly if they are used by public authorities, agencies, or bodies (Source: EU AI ACT.pdf p.33).",
+    "category": "factual",
+    "correct": true,
+    "sources": [
+      {
+        "source": "EU AI ACT.pdf",
+        "page": 53
+      },
+      {
+        "source": "EU AI ACT.pdf",
+        "page": 53
+      },
+      {
+        "source": "EU AI ACT.pdf",
+        "page": 33
+      },
+      {
+        "source": "EU AI ACT.pdf",
+        "page": 14
+      },
+      {
+        "source": "EU AI ACT.pdf",
+        "page": 25
+      },
+      {
+        "source": "EU AI ACT.pdf",
+        "page": 39
+      },
+      {
+        "source": "EU AI ACT.pdf",
+        "page": 33
+      },
+      {
+        "source": "EU AI ACT.pdf",
+        "page": 100
+      }
+    ]
+  },
+  {
+    "question": "Who came up with the AI Risk Management Framework and when was it released?",
+    "expected_answer": "The National Institute of Standards and Technology (NIST), U.S. Department of Commerce, published it in January 2023.",
+    "rag_answer": "The AI Risk Management Framework (AI RMF 1.0) was developed by the National Institute of Standards and Technology (NIST) in collaboration with the private and public sectors. It was released in January 2023 (Source: risk management 48 pages.pdf p.2).",
+    "category": "factual",
+    "correct": true,
+    "sources": [
+      {
+        "source": "risk managment 48 pages.pdf",
+        "page": 2
+      },
+      {
+        "source": "risk managment 48 pages.pdf",
+        "page": 8
+      },
+      {
+        "source": "risk managment 48 pages.pdf",
+        "page": 8
+      },
+      {
+        "source": "risk managment 48 pages.pdf",
+        "page": 1
+      },
+      {
+        "source": "risk managment 48 pages.pdf",
+        "page": 44
+      },
+      {
+        "source": "risk managment 48 pages.pdf",
+        "page": 3
+      },
+      {
+        "source": "risk managment 48 pages.pdf",
+        "page": 36
+      },
+      {
+        "source": "risk managment 48 pages.pdf",
+        "page": 47
+      }
+    ]
+  },
+  {
+    "question": "What are the trustworthiness characteristics that the NIST AI RMF talks about?",
+    "expected_answer": "Valid and reliable, safe, secure and resilient, accountable and transparent, explainable and interpretable, privacy-enhanced, and fair with their harmful biases managed.",
+    "rag_answer": "The NIST AI RMF discusses several trustworthiness characteristics for AI systems, which include:\n\n1. **Valid & Reliable**: This is considered a necessary condition for trustworthiness and serves as the foundation for other characteristics.\n2. **Accountable & Transparent**: This characteristic is crucial as it relates to all other trustworthiness characteristics, ensuring that AI systems can be held accountable for their actions and that their operations are transparent to users and stakeholders.\n\nAdditionally, the framework emphasizes that addressing these characteristics individually may not guarantee overall trustworthiness, as trade-offs are often involved, and the importance of each characteristic can vary depending on the specific context (Source: risk management 48 pages.pdf p.5, p.17).",
+    "category": "factual",
+    "correct": true,
+    "sources": [
+      {
+        "source": "risk managment 48 pages.pdf",
+        "page": 44
+      },
+      {
+        "source": "risk managment 48 pages.pdf",
+        "page": 5
+      },
+      {
+        "source": "risk managment 48 pages.pdf",
+        "page": 17
+      },
+      {
+        "source": "risk managment 48 pages.pdf",
+        "page": 47
+      },
+      {
+        "source": "risk managment 48 pages.pdf",
+        "page": 34
+      },
+      {
+        "source": "risk managment 48 pages.pdf",
+        "page": 24
+      },
+      {
+        "source": "risk managment 48 pages.pdf",
+        "page": 24
+      },
+      {
+        "source": "risk managment 48 pages.pdf",
+        "page": 17
+      }
+    ]
+  },
+  {
+    "question": "What exactly counts as valid consent from a user under the GDPR?",
+    "expected_answer": "Any freely given, specific, informed and unambiguous indication of the data subject's wishes by which he or she, by a statement or by a clear affirmative action, signifies agreement to the processing of personal data relating to him or her.",
+    "rag_answer": "Valid consent under the GDPR must meet several specific criteria:\n\n1. **Freely Given**: Consent must be given voluntarily, without any coercion. It should not be bundled with other agreements or conditions, allowing the data subject to make a genuine choice (GDPR.pdf p.6).\n\n2. **Informed**: The data subject must be adequately informed about the processing of their personal data. This includes clear information about the purpose of the processing and any potential consequences (GDPR.pdf p.37).\n\n3. **Specific**: Consent must be specific to the processing activities being conducted. If there are multiple purposes for processing, consent must be obtained for each purpose (GDPR.pdf p.6).\n\n4. **Unambiguous**: The consent must be given through a clear affirmative action, such as ticking a box or making a statement. Silence, pre-ticked boxes, or inactivity do not constitute valid consent (GDPR.pdf p.6).\n\n5. **Easily Withdrawn**: The data subject has the right to withdraw consent at any time, and this process should be as easy as giving consent. The withdrawal of consent does not affect the lawfulness of processing based on consent before its withdrawal (GDPR.pdf p.37).\n\n6. **Clear Presentation**: If consent is part of a written declaration that includes other matters, the request for consent must be clearly distinguishable and presented in an intelligible and accessible manner, using plain language (GDPR.pdf p.37).\n\n7. **Demonstrable**: The data controller must be able to demonstrate that consent was obtained, ensuring that the data subject is aware of the extent of their consent (GDPR.pdf p.8).\n\nThese criteria ensure that consent is meaningful and respects the rights of the data subjects.",
+    "category": "factual",
+    "correct": true,
+    "sources": [
+      {
+        "source": "GDPR.pdf",
+        "page": 37
+      },
+      {
+        "source": "GDPR.pdf",
+        "page": 37
+      },
+      {
+        "source": "GDPR.pdf",
+        "page": 6
+      },
+      {
+        "source": "GDPR.pdf",
+        "page": 37
+      },
+      {
+        "source": "GDPR.pdf",
+        "page": 6
+      },
+      {
+        "source": "GDPR.pdf",
+        "page": 8
+      },
+      {
+        "source": "GDPR.pdf",
+        "page": 8
+      },
+      {
+        "source": "EU AI ACT.pdf",
+        "page": 36
+      }
+    ]
+  },
+  {
+    "question": "How do the fines compare between the EU AI Act and GDPR \u2014 which one hits harder?",
+    "expected_answer": "Under the EU AI Act, fines for prohibited AI practices can reach up to EUR 35,000,000 or 7% of worldwide annual turnover. For other non-compliance, fines go up to EUR 15,000,000 or 3% of turnover. For supplying incorrect information, up to EUR 7,500,000 or 1% of turnover. Under the GDPR, the most severe fines reach up to EUR 20,000,000 or 4% of worldwide annual turnover for infringements of basic principles and data subject rights, and up to EUR 10,000,000 or 2% of turnover for other infringements.",
+    "rag_answer": "The fines imposed under the EU AI Act and GDPR differ in their maximum amounts and conditions for application.\n\nUnder the EU AI Act, fines for providers of general-purpose AI models can reach up to 3% of their annual total worldwide turnover in the preceding financial year or EUR 15,000,000, whichever is higher (Source: EU AI ACT.pdf p.117). Additionally, non-compliance with specific AI practices can incur fines of up to EUR 1,500,000, while non-compliance with other requirements can lead to fines of up to EUR 750,000 (Source: EU AI ACT.pdf p.117).\n\nIn contrast, the GDPR stipulates that infringements can result in administrative fines of up to EUR 10,000,000, or in the case of an undertaking, up to 2% of the total worldwide annual turnover of the preceding financial year, whichever is higher (Source: GDPR.pdf p.82). For more severe infringements, the maximum fine can be up to EUR 20,000,000 or 4% of the total worldwide annual turnover, whichever is higher (Source: GDPR.pdf p.83).\n\nIn summary, while the EU AI Act has a maximum fine of EUR 15,000,000 or 3% of turnover for general-purpose AI models, the GDPR can impose higher fines, with a maximum of EUR 20,000,000 or 4% of turnover for serious infringements. Therefore, the GDPR generally has the potential to impose harsher penalties compared to the EU AI Act.",
+    "category": "cross-reference",
+    "correct": true,
+    "sources": [
+      {
+        "source": "EU AI ACT.pdf",
+        "page": 117
+      },
+      {
+        "source": "EU AI ACT.pdf",
+        "page": 117
+      },
+      {
+        "source": "EU AI ACT.pdf",
+        "page": 42
+      },
+      {
+        "source": "EU AI ACT.pdf",
+        "page": 118
+      },
+      {
+        "source": "EU AI ACT.pdf",
+        "page": 116
+      },
+      {
+        "source": "GDPR.pdf",
+        "page": 82
+      },
+      {
+        "source": "EU AI ACT.pdf",
+        "page": 12
+      },
+      {
+        "source": "GDPR.pdf",
+        "page": 83
+      }
+    ]
+  },
+  {
+    "question": "Is the NIST AI RMF's idea of privacy-enhanced AI similar to GDPR's data protection by design concept?",
+    "expected_answer": "The NIST AI RMF identifies privacy-enhanced as a trustworthiness characteristic, focusing on safeguarding human autonomy, identity, and dignity through norms limiting observation and providing individual consent. The GDPR's Article 25 requires controllers to implement appropriate technical and organisational measures (such as pseudonymisation and data minimisation) both at design time and during processing. Both frameworks emphasize proactive, built-in privacy protections rather than after-the-fact remediation.",
+    "rag_answer": "Yes, the NIST AI Risk Management Framework (AI RMF) concept of privacy-enhanced AI is similar to the General Data Protection Regulation (GDPR)'s data protection by design concept. Both emphasize the importance of integrating privacy considerations into the design and development of AI systems.\n\nThe GDPR mandates that data protection principles, including data minimization and protection by design and by default, must be adhered to throughout the lifecycle of AI systems (EU AI ACT.pdf p.20). This means that organizations must ensure that personal data is processed in a way that respects privacy rights from the outset.\n\nSimilarly, the NIST AI RMF highlights the need for AI systems to incorporate privacy values such as anonymity, confidentiality, and control, guiding the design, development, and deployment of these systems (risk management 48 pages.pdf p.22). The framework also acknowledges that privacy-related risks can influence other characteristics of AI systems, such as security and transparency, indicating a holistic approach to managing privacy alongside other factors (risk management 48 pages.pdf p.22).\n\nIn summary, both frameworks advocate for a proactive approach to privacy, ensuring that it is a fundamental aspect of AI system design and operation.",
+    "category": "cross-reference",
+    "correct": true,
+    "sources": [
+      {
+        "source": "EU AI ACT.pdf",
+        "page": 20
+      },
+      {
+        "source": "risk managment 48 pages.pdf",
+        "page": 44
+      },
+      {
+        "source": "risk managment 48 pages.pdf",
+        "page": 17
+      },
+      {
+        "source": "EU AI ACT.pdf",
+        "page": 8
+      },
+      {
+        "source": "risk managment 48 pages.pdf",
+        "page": 22
+      },
+      {
+        "source": "risk managment 48 pages.pdf",
+        "page": 22
+      },
+      {
+        "source": "risk managment 48 pages.pdf",
+        "page": 47
+      },
+      {
+        "source": "risk managment 48 pages.pdf",
+        "page": 44
+      }
+    ]
+  },
+  {
+    "question": "Do the EU AI Act and the NIST AI RMF say similar things about keeping humans in the loop for AI systems?",
+    "expected_answer": "The EU AI Act (Article 14) requires high-risk AI systems to be designed with effective human oversight, including the ability for humans to understand AI outputs, override or interrupt the system, and decide not to use it. The NIST AI RMF addresses human-AI interaction through its GOVERN function, establishing roles and responsibilities for humans in Human-AI team configurations, and through its MAP and MEASURE functions emphasizing the need for human-AI teaming considerations in risk assessment and measurement.",
+    "rag_answer": "Yes, both the EU AI Act and the NIST AI RMF emphasize the importance of keeping humans in the loop when it comes to AI systems, albeit from slightly different perspectives.\n\nThe EU AI Act highlights the concept of human agency and oversight, stating that AI systems should be developed and used as tools that serve people, respect human dignity and personal autonomy, and function in a way that can be controlled and overseen by humans (EU AI ACT, p.8). This underscores the necessity for human involvement in the decision-making processes related to AI systems.\n\nSimilarly, the NIST AI RMF discusses the significance of defining human roles and responsibilities in the context of AI systems. It emphasizes that organizations should clarify these roles within Human-AI team configurations and ensure that humans are empowered to challenge AI outputs (risk management 48 pages.pdf, p.45 and p.46). The framework also acknowledges the complexity of presenting AI system information to humans, recognizing that individuals perceive and interpret AI outputs differently based on their preferences and skills (risk management 48 pages.pdf, p.46).\n\nIn summary, both documents advocate for human oversight and involvement in AI systems to ensure ethical and effective use, highlighting the need for clear roles and the ability for humans to intervene when necessary.",
+    "category": "cross-reference",
+    "correct": true,
+    "sources": [
+      {
+        "source": "risk managment 48 pages.pdf",
+        "page": 45
+      },
+      {
+        "source": "EU AI ACT.pdf",
+        "page": 8
+      },
+      {
+        "source": "risk managment 48 pages.pdf",
+        "page": 46
+      },
+      {
+        "source": "risk managment 48 pages.pdf",
+        "page": 46
+      },
+      {
+        "source": "EU AI ACT.pdf",
+        "page": 41
+      },
+      {
+        "source": "EU AI ACT.pdf",
+        "page": 25
+      },
+      {
+        "source": "risk managment 48 pages.pdf",
+        "page": 8
+      },
+      {
+        "source": "risk managment 48 pages.pdf",
+        "page": 8
+      }
+    ]
+  },
+  {
+    "question": "How important is transparency in both the EU AI Act and the NIST AI RMF, and what do they each say about it?",
+    "expected_answer": "The EU AI Act requires transparency obligations (Article 50) for AI systems interacting with humans, and mandates detailed technical documentation and EU database registration for high-risk systems. The NIST AI RMF treats transparency as a core trustworthiness characteristic meaning that information about an AI system and its outputs is available to those interacting with it. The RMF notes that transparency answers 'what happened', while explainability answers 'how' and interpretability answers 'why'. Both frameworks view transparency as essential for accountability but recognize it alone does not ensure accuracy, fairness, or privacy.",
+    "rag_answer": "Transparency is a critical component in both the EU AI Act and the NIST AI Risk Management Framework (RMF), as it underpins accountability and the responsible use of AI systems.\n\nIn the **EU AI Act**, transparency is emphasized as essential for ensuring that AI systems are developed and used in a manner that allows for appropriate traceability and explainability. The Act mandates that high-risk AI systems must be designed to ensure their operation is sufficiently transparent, enabling deployers to interpret the system's output and use it appropriately (EU AI ACT, p.59). Furthermore, it requires that individuals interacting with AI systems are made aware of their interactions and are informed about the capabilities and limitations of these systems, as well as their rights (EU AI ACT, p.8). This focus on transparency is intended to foster trust and ensure compliance with legal obligations.\n\nOn the other hand, the **NIST AI RMF** also places a strong emphasis on transparency, highlighting that it is vital for accountability in AI systems. The framework aims to be developed through an open and transparent process, allowing all stakeholders to contribute (risk management 48 pages.pdf, p.47). This approach is designed to ensure that the framework remains relevant and effective as technology evolves. Additionally, the NIST RMF strives to communicate AI risks clearly and understandably, making it accessible to a broad audience, which is crucial for fostering transparency in AI risk management (risk management 48 pages.pdf, p.47).\n\nIn summary, both the EU AI Act and the NIST AI RMF recognize the importance of transparency in AI systems. The EU AI Act focuses on ensuring that users and deployers are informed about AI capabilities and their rights, while the NIST RMF emphasizes an open development process and clear communication of AI risks. Together, these frameworks aim to promote accountability and trust in AI technologies.",
+    "category": "cross-reference",
+    "correct": true,
+    "sources": [
+      {
+        "source": "risk managment 48 pages.pdf",
+        "page": 20
+      },
+      {
+        "source": "EU AI ACT.pdf",
+        "page": 8
+      },
+      {
+        "source": "EU AI ACT.pdf",
+        "page": 59
+      },
+      {
+        "source": "EU AI ACT.pdf",
+        "page": 35
+      },
+      {
+        "source": "risk managment 48 pages.pdf",
+        "page": 8
+      },
+      {
+        "source": "risk managment 48 pages.pdf",
+        "page": 7
+      },
+      {
+        "source": "risk managment 48 pages.pdf",
+        "page": 47
+      },
+      {
+        "source": "risk managment 48 pages.pdf",
+        "page": 47
+      }
+    ]
+  },
+  {
+    "question": "Hey, what's Google's stock price right now?",
+    "expected_answer": null,
+    "rag_answer": "I don't have enough information to answer this.",
+    "category": "out-of-scope",
+    "correct": true,
+    "sources": [
+      {
+        "source": "EU AI ACT.pdf",
+        "page": 37
+      },
+      {
+        "source": "EU AI ACT.pdf",
+        "page": 16
+      },
+      {
+        "source": "EU AI ACT.pdf",
+        "page": 41
+      },
+      {
+        "source": "GDPR.pdf",
+        "page": 26
+      },
+      {
+        "source": "risk managment 48 pages.pdf",
+        "page": 29
+      },
+      {
+        "source": "GDPR.pdf",
+        "page": 12
+      },
+      {
+        "source": "EU AI ACT.pdf",
+        "page": 50
+      },
+      {
+        "source": "EU AI ACT.pdf",
+        "page": 10
+      }
+    ]
+  },
+  {
+    "question": "Can you tell me about China's data protection laws?",
+    "expected_answer": null,
+    "rag_answer": "I don't have enough information to answer this.",
+    "category": "out-of-scope",
+    "correct": true,
+    "sources": [
+      {
+        "source": "EU AI ACT.pdf",
+        "page": 3
+      },
+      {
+        "source": "EU AI ACT.pdf",
+        "page": 3
+      },
+      {
+        "source": "GDPR.pdf",
+        "page": 7
+      },
+      {
+        "source": "GDPR.pdf",
+        "page": 14
+      },
+      {
+        "source": "GDPR.pdf",
+        "page": 61
+      },
+      {
+        "source": "GDPR.pdf",
+        "page": 47
+      },
+      {
+        "source": "GDPR.pdf",
+        "page": 85
+      },
+      {
+        "source": "EU AI ACT.pdf",
+        "page": 3
+      }
+    ]
+  },
+  {
+    "question": "How do I train a machine learning model in Python?",
+    "expected_answer": null,
+    "rag_answer": "I don't have enough information to answer this.",
+    "category": "out-of-scope",
+    "correct": true,
+    "sources": [
+      {
+        "source": "risk managment 48 pages.pdf",
+        "page": 40
+      },
+      {
+        "source": "EU AI ACT.pdf",
+        "page": 26
+      },
+      {
+        "source": "EU AI ACT.pdf",
+        "page": 4
+      },
+      {
+        "source": "EU AI ACT.pdf",
+        "page": 29
+      },
+      {
+        "source": "EU AI ACT.pdf",
+        "page": 141
+      },
+      {
+        "source": "EU AI ACT.pdf",
+        "page": 144
+      },
+      {
+        "source": "risk managment 48 pages.pdf",
+        "page": 43
+      },
+      {
+        "source": "EU AI ACT.pdf",
+        "page": 130
+      }
+    ]
+  },
+  {
+    "question": "What are the requirements I need to follow?",
+    "expected_answer": null,
+    "rag_answer": "To comply with the EU AI Act, particularly for high-risk AI systems, you need to follow several key requirements:\n\n1. **Conformity with Relevant Requirements**: High-risk AI systems must comply with the requirements set out in Section 2 of the Act. This includes ensuring that the systems are trained and tested on data that reflects the specific geographical, behavioral, contextual, or functional settings in which they are intended to be used (Source: EU AI ACT.pdf p.77).\n\n2. **Registration Obligations**: You must comply with the registration obligations as referred to in Article 49(1) (Source: EU AI ACT.pdf p.62).\n\n3. **Corrective Actions**: You are required to take necessary corrective actions and provide information as required in Article 20 (Source: EU AI ACT.pdf p.62).\n\n4. **Demonstration of Conformity**: Upon a reasoned request from a national competent authority, you must demonstrate the conformity of the high-risk AI system with the requirements set out in Section 2 (Source: EU AI ACT.pdf p.62).\n\n5. **Accessibility Requirements**: Ensure that the high-risk AI system complies with accessibility requirements as specified (Source: EU AI ACT.pdf p.62).\n\n6. **Conformity Assessment Procedures**: For high-risk AI systems covered by Union harmonization legislation, you must follow the relevant conformity assessment procedures as required under those legal acts (Source: EU AI ACT.pdf p.78).\n\n7. **Guidelines from the Commission**: Be aware that the Commission will develop guidelines on the practical implementation of the Regulation, which will include application of the requirements and obligations, prohibited practices, and transparency (Source: EU AI ACT.pdf p.114).\n\n8. **Monitoring and Responsibilities**: Deployers of high-risk AI systems should take appropriate technical and organizational measures to ensure proper monitoring of the performance of the AI system in real-life settings (Source: EU AI ACT.pdf p.24).\n\nBy adhering to these requirements, you can ensure compliance with the EU AI Act for high-risk AI systems.",
+    "category": "ambiguous",
+    "correct": true,
+    "sources": [
+      {
+        "source": "EU AI ACT.pdf",
+        "page": 77
+      },
+      {
+        "source": "EU AI ACT.pdf",
+        "page": 62
+      },
+      {
+        "source": "EU AI ACT.pdf",
+        "page": 76
+      },
+      {
+        "source": "EU AI ACT.pdf",
+        "page": 78
+      },
+      {
+        "source": "EU AI ACT.pdf",
+        "page": 114
+      },
+      {
+        "source": "EU AI ACT.pdf",
+        "page": 24
+      },
+      {
+        "source": "EU AI ACT.pdf",
+        "page": 118
+      },
+      {
+        "source": "EU AI ACT.pdf",
+        "page": 77
+      }
+    ]
+  },
+  {
+    "question": "What are the rules around handling data?",
+    "expected_answer": null,
+    "rag_answer": "The rules around handling data, as outlined in the provided context, include several key principles and requirements:\n\n1. **Data Minimization**: Personal data collected should be adequate, relevant, and limited to what is necessary for the purposes for which they are processed (GDPR.pdf p.7).\n\n2. **Limited Storage Periods**: The period for which personal data is stored must be limited to what is necessary for the processing purposes (GDPR.pdf p.7).\n\n3. **Legal Basis for Processing**: There must be a lawful basis for processing personal data, which includes specific provisions that govern the lawfulness of processing by the controller (GDPR.pdf p.36).\n\n4. **Purpose Limitation**: Personal data should only be processed for explicit and legitimate purposes that are determined at the time of collection (GDPR.pdf p.7).\n\n5. **Data Quality**: The data must be accurate and kept up to date, ensuring that any inaccuracies are rectified without delay (GDPR.pdf p.63).\n\n6. **Data Protection by Design and by Default**: Data protection measures should be integrated into the processing activities and business practices from the outset (GDPR.pdf p.63).\n\n7. **Rights of Data Subjects**: Data subjects have specific rights regarding their personal data, including the right to access, rectify, and erase their data, as well as the right not to be subject to decisions based solely on automated processing (GDPR.pdf p.63).\n\n8. **Transparency**: Information regarding the processing of personal data must be easily accessible and understandable, ensuring that data subjects are informed about the identity of the controller and the purposes of processing (GDPR.pdf p.7).\n\n9. **Supervisory Authorities**: These authorities are responsible for monitoring compliance with data protection rules and handling complaints from data subjects (GDPR.pdf p.23).\n\nThese principles collectively aim to ensure that personal data is handled responsibly, securely, and in compliance with legal standards.",
+    "category": "ambiguous",
+    "correct": true,
+    "sources": [
+      {
+        "source": "GDPR.pdf",
+        "page": 63
+      },
+      {
+        "source": "GDPR.pdf",
+        "page": 7
+      },
+      {
+        "source": "GDPR.pdf",
+        "page": 36
+      },
+      {
+        "source": "GDPR.pdf",
+        "page": 10
+      },
+      {
+        "source": "GDPR.pdf",
+        "page": 23
+      },
+      {
+        "source": "GDPR.pdf",
+        "page": 63
+      },
+      {
+        "source": "EU AI ACT.pdf",
+        "page": 8
+      },
+      {
+        "source": "GDPR.pdf",
+        "page": 7
+      }
+    ]
+  },
+  {
+    "question": "What kind of penalties are there?",
+    "expected_answer": null,
+    "rag_answer": "The context provides information on various types of penalties that can be imposed for infringements of regulations, specifically under the GDPR and the EU AI Act. \n\n1. **Administrative Fines**: Both the GDPR and the EU AI Act emphasize the imposition of administrative fines as a form of penalty. These fines must be effective, proportionate, and dissuasive (GDPR, p.83; EU AI ACT, p.42).\n\n2. **Criminal Penalties**: Member States are allowed to establish rules for criminal penalties for infringements of the regulations. These may include the deprivation of profits obtained through such infringements. However, the imposition of criminal penalties should not violate the principle of ne bis in idem, which prevents double jeopardy (GDPR, p.27).\n\n3. **Non-Monetary Measures**: The EU AI Act mentions that penalties may also include warnings and other non-monetary measures, in addition to administrative fines (EU AI ACT, p.115).\n\n4. **Effective and Proportionate Measures**: Both regulations stress that any penalties imposed should be effective, proportionate, and dissuasive, ensuring that they serve their purpose of compliance and deterrence (GDPR, p.28; EU AI ACT, p.44).\n\nIn summary, the types of penalties include administrative fines, criminal penalties, and non-monetary measures, all of which must adhere to principles of effectiveness, proportionality, and deterrence.",
+    "category": "ambiguous",
+    "correct": true,
+    "sources": [
+      {
+        "source": "GDPR.pdf",
+        "page": 83
+      },
+      {
+        "source": "EU AI ACT.pdf",
+        "page": 42
+      },
+      {
+        "source": "EU AI ACT.pdf",
+        "page": 115
+      },
+      {
+        "source": "GDPR.pdf",
+        "page": 27
+      },
+      {
+        "source": "GDPR.pdf",
+        "page": 28
+      },
+      {
+        "source": "GDPR.pdf",
+        "page": 27
+      },
+      {
+        "source": "GDPR.pdf",
+        "page": 83
+      },
+      {
+        "source": "EU AI ACT.pdf",
+        "page": 44
+      }
+    ]
+  }
+]

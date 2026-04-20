@@ -1,0 +1,22 @@
+# Core AI / API
+python-dotenv==1.2.1
+tiktoken==0.12.0
+
+# Vector DB / Math
+faiss-cpu==1.13.0
+numpy==2.0.2
+google-genai
+rank-bm25==0.2.2
+
+# Web UI
+gradio==6.12.0
+
+# PDF Extraction
+PyMuPDF==1.26.5
+
+# MCP
+fastmcp
+duckduckgo-search
+
+# Database
+qdrant-client==1.8.0

@@ -1,0 +1,33 @@
+[tool.ruff]
+line-length = 120
+target-version = "py312"
+
+[tool.ruff.lint]
+select = [
+    "E",  # pycodestyle errors
+    "W",  # pycodestyle warnings
+    "F",  # pyflakes
+    "I",  # isort
+    "C",  # flake8-comprehensions
+    "B",  # flake8-bugbear
+]
+ignore = [
+    "E501",  # line too long, handled by black/format
+    "E402",  # module level import not at top (due to sys.path hacks)
+    "C901",  # function too complex
+    "E701",  # multiple statements on one line
+    "B007",  # loop control variable not used
+    "B905",  # zip without strict
+    "W291",  # trailing whitespace
+    "E741",  # ambiguous variable name
+]
+
+[tool.pytest.ini_options]
+pythonpath = [
+  "."
+]
+minversion = "6.0"
+addopts = "-ra -q"
+testpaths = [
+    "tests",
+]
